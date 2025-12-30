@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    background-color: #FFFACC;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    width: 500px;
+    border: 1px solid #333333;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.boxstyle {
+    border: 1px solid #333333;
+    flex-basis: 6.25%;
+    aspect-ratio: 1 / 1;
+}
